@@ -2,6 +2,8 @@
 
 # A Label-Efficient Model for Automatically Extracting Electron Density Profile from Ionograms
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23238318.svg)](https://doi.org/10.5281/zenodo.23238318)
+
 <br/>
 
 <img src="docs/fig_pipeline.jpg" width="94%" alt="Method">
@@ -66,11 +68,19 @@ python test.py --test_dir test --model_path best_ionosphere_model.pth
 
 Command-line details are in [`gan/README.md`](gan/README.md). Checkpoints and raw ionograms are not stored in this repository.
 
+## Data and Model Weights
+
+- **Example data and code** (twelve real ionograms from Puer with ground truth, EDP extraction code): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23238318.svg)](https://doi.org/10.5281/zenodo.23238318)
+- **Model weights** (`model_before_adap.pth`, `model_after_adap.pth`): [Release v1.0.0](https://github.com/li-shutong/LEI-Net/releases/tag/v1.0.0)
+
 ## Citation
 
 ```bibtex
-@article{label_efficient_ionogram_edp,
-  title  = {A Label-Efficient Model for Automatically Extracting Electron Density Profile from Ionograms},
-  year   = {2026}
+@dataset{label_efficient_ionogram_edp,
+  title  = {Code and data for A Label-Efficient Model for Automatically Extracting Electron Density Profile from Ionograms (LEI-Net)},
+  author = {Li, Shutong},
+  year   = {2026},
+  doi    = {10.5281/zenodo.23238318},
+  url    = {https://zenodo.org/records/23238318}
 }
 ```
