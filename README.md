@@ -75,10 +75,20 @@ Command-line details are in [`gan/README.md`](gan/README.md). Checkpoints and ra
 
 ## Citation
 
+If you use this code, data, or model weights, please cite the paper (submitted to *Space Weather*) and the Zenodo archive:
+
 ```bibtex
+@article{zhang2026label,
+  title   = {A Label-Efficient Model for Automatically Extracting Electron Density Profile from Ionograms},
+  author  = {Zhang, Shuchang and Yan, Ting and Zhang, Xinmiao and Jiang, Chunhua and Liu, Tongxin and Gao, Rui and Yang, Guobin and Xu, Wei},
+  journal = {Space Weather},
+  year    = {2026},
+  note    = {Under review}
+}
+
 @dataset{label_efficient_ionogram_edp,
   title  = {Code and data for A Label-Efficient Model for Automatically Extracting Electron Density Profile from Ionograms (LEI-Net)},
-  author = {Li, Shutong},
+  author = {Zhang, Shuchang},
   year   = {2026},
   doi    = {10.5281/zenodo.23238318},
   url    = {https://zenodo.org/records/23238318}
